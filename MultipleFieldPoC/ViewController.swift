@@ -5,7 +5,8 @@
 //  Created by Shiva on 18/02/15.
 //  Copyright (c) 2015 Shiva. All rights reserved.
 //
-
+// Updated on feature1 
+// To be merged on the master branch
 import UIKit
 
 class ViewController: UIViewController {
@@ -26,12 +27,6 @@ class ViewController: UIViewController {
         values.updateValue(self.formatValues("Sivaram", colorValue: UIColor.blackColor()), forKey: "Name")
         values.updateValue(self.formatValues("Demo Project", colorValue: UIColor.blueColor()), forKey: "Project")
         values.updateValue(self.formatValues("Ramanujam IT Park Chennai", colorValue: UIColor.grayColor()), forKey: "Location")
-        //values.updateValue(self.formatValues("Tata Consulatancy Services", colorValue: UIColor.redColor()), forKey: "company")
-        //values.updateValue(self.formatValues("Tata Consulatancy Services", colorValue: UIColor.redColor()), forKey: "company1")
-        //values.updateValue(self.formatValues("Tata Consulatancy Services", colorValue: UIColor.redColor()), forKey: "company2")
-        //values.updateValue(self.formatValues("Tata Consulatancy Services", colorValue: UIColor.redColor()), forKey: "company3")
-        // values.updateValue(self.formatValues("Tata Consulatancy Services", colorValue: UIColor.redColor()), forKey: "company4")
-        
     }
     
     override func didReceiveMemoryWarning() {
