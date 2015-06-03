@@ -7,6 +7,10 @@
 //
 // Updated on feature1 
 // To be merged on the master branch
+
+
+// Now it's time to rebase the master to feature1
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -25,7 +29,7 @@ class ViewController: UIViewController {
         
         // Adding Values to Dictionary
         values.updateValue(self.formatValues("Sivaram", colorValue: UIColor.blackColor()), forKey: "Name")
-        values.updateValue(self.formatValues("Demo Project", colorValue: UIColor.blueColor()), forKey: "Project")
+        values.updateValue(self.formatValues("Rebase Demo Project", colorValue: UIColor.blueColor()), forKey: "Project")
         values.updateValue(self.formatValues("Ramanujam IT Park Chennai", colorValue: UIColor.grayColor()), forKey: "Location")
     }
     
@@ -56,7 +60,7 @@ extension ViewController{
         
         if (indexPath.row % 2) == 0 {
             cell = tableView.dequeueReusableCellWithIdentifier("MultipleCell", forIndexPath: indexPath) as! MultipleTableViewCell
-            cell.lblTitle?.text = "Demo project"
+            cell.lblTitle?.text = "Rebase Demo project"
             cell.setValueForDescription(values)
         } else {
             cell = tableView.dequeueReusableCellWithIdentifier("NewCell", forIndexPath: indexPath) as! MultipleTableViewCell
